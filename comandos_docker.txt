@@ -1,0 +1,5 @@
+# Inicia CENTOS 7 com suporte systemctl
+docker run --privileged -d -e "container=docker" -p 2222:22 -v /sys/fs/cgroup:/sys/fs/cgroup centos7:ssh-only /usr/sbin/init
+
+# Faz um build a partir da base image CENTOS e armazena no repositorio docker local com tag especifica
+docker build -t centos7:ssh-only .
