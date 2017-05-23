@@ -1,0 +1,14 @@
+# Inicializa o diretorio local do git client
+git init
+
+# Adiciona um arquivo ao diretorio local git
+git add arquivo.extensao
+
+# Descreve o commit daquele arquivo que esta sendo enviado
+git commit -m "Adicionado arquivo com comandos uteis para docker Daemon."
+
+# Adiciona o repositorio de destino (na primeira vez)
+git remote add origin https://github.com/junieh/knowledgebase.git
+
+# Adiciona o conteudo comitado e arquivos adicionados ao branch. Neste caso, o branch master (default)
+git push -u origin master
