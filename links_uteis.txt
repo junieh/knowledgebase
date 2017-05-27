@@ -1,2 +1,5 @@
 # Criando sua propria imagem Docker
 https://www.linux.com/learn/how-build-your-own-custom-docker-images
+
+# Instalar scripts init no CENTOS para livrar problema com ausencia do /etc/rc.d/functions
+https://unix.stackexchange.com/questions/9314/no-such-file-or-directory-etc-init-d-functions
