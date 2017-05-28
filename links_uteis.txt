@@ -3,3 +3,6 @@ https://www.linux.com/learn/how-build-your-own-custom-docker-images
 
 # Instalar scripts init no CENTOS para livrar problema com ausencia do /etc/rc.d/functions
 https://unix.stackexchange.com/questions/9314/no-such-file-or-directory-etc-init-d-functions
+
+# reset MYSQL password via default temp password CENTOS 7
+https://stackoverflow.com/questions/10895163/how-to-find-out-the-mysql-root-password
